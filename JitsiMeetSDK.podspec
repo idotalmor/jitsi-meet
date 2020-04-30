@@ -13,8 +13,4 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '11.0'
   s.vendored_frameworks = 'Frameworks/JitsiMeet.framework', 'Frameworks/WebRTC.framework'
 
-
- s.dependency = 'Amplitude-iOS', '~> 4.0.4'
- s.dependency = 'CocoaLumberjack', '~>3.5.3'
- s.dependency = 'ObjectiveDropboxOfficial', '~> 3.9.4'
 end
